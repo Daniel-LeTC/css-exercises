@@ -28,28 +28,55 @@ input {
 
 /*Answer for the exercise*/
 
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  
+}
+
+.header,.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-links {
+  display: flex;
+  margin-left: 8px;
+  padding: 0px;
+  justify-content: space-between;
+  gap: 10px;
+} 
+
+.right-links {
+  display: flex;
+  margin-right: 8px;
+  padding: 0px;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.footer {
+  background: #eee;
+}
+
+.content{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 a {
   text-decoration: none;
+  color: black;
 }
 
 ul {
   list-style-type: none;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  gap: 200px;
-}
 
-.left-links {
-  display: flex;
-  justify-content: space-between;
-  gap: 8px
-}
 
-.right-links {
-  display: flex;
-  justify-content: space-between;
-  gap: 8px;
-}
+
