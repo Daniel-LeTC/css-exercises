@@ -20,6 +20,45 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.bar {
+  display: flex;
+  font-weight: 800;
+  font-size: 22px;
+  justify-content: left;
+  margin: 12px;
+  
+}
+
+.close-container {
+  margin: 12px;
+}  
+
+.navi {
+  display: flex;
+  font-weight: 800;
+  font-size: 22px;
+  justify-content: space-between;
+}
+
+.header {
+font-weight: 800;
+}
+
+.text {
+  margin-left: 60px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+}
+.actionbar {
+  display: flex;
+  margin-left: 54px;
+  margin-bottom: 12px;
+  justify-content: left;
+  gap: 10px;
 }
 
 .icon {
@@ -29,10 +68,12 @@ body {
   background: lavender;
   width: 42px;
   height: 42px;
-  border-radius: 50%;
+  margin-left: -6px;
+  margin-right: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 50%;
 }
 
 .close-button {
