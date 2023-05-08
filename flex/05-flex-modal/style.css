@@ -42,6 +42,7 @@ body {
   font-weight: 800;
   font-size: 22px;
   justify-content: space-between;
+  gap: 8px;
 }
 
 .header {
