@@ -41,7 +41,6 @@ body {
 }
 
 .textbox {
-  border: 2px solid orange;
   display: flex;
   justify-content: space-between;
   gap: 32px;
