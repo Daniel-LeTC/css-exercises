@@ -46,9 +46,8 @@ body {
   justify-content: space-between;
   gap: 32px;
   margin-left: 32px;
-  margin-right:100px;
+  margin-right: 150px;
   flex-wrap: wrap;
- 
 }
 
 .card {
@@ -83,5 +82,4 @@ ul{
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
