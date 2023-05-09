@@ -27,3 +27,26 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/*answer*/
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+}
+
+.textbox {
+  display: flex;
+  justify-content: space-around;
+  gap: 8px;
+  margin: 8px;
+}
+
+.footer {
+  text-align: center;
+  align-items: center;
+}
