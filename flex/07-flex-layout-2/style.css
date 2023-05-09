@@ -23,7 +23,7 @@ body {
 }
 
 .card {
-  border: 1px solid #eee;
+  border: 1px solid black;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
@@ -32,7 +32,7 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  
 }
 
 .container {
@@ -40,13 +40,44 @@ body {
 }
 
 .textbox {
+  border: 2px solid orange;
   display: flex;
-  justify-content: space-around;
-  gap: 8px;
-  margin: 8px;
+  justify-content: space-between;
+  gap: 32px;
+  margin: 32px;
+  flex-wrap: wrap;
+ 
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+}
+
+.sidebar {
+  width: 300px;
+  flex-shrink: 0;
+  font-size: 24px;
+  
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul{
+  list-style: none;
+}
+
+.header {
+  font-size: 32px;
+  font-weight: 900;
+  padding: 16px;
 }
 
 .footer {
   text-align: center;
   align-items: center;
+  justify-self: center;
 }
